@@ -94,18 +94,28 @@ function PracticeAreas() {
             />
             <Card
               number='2/6'
-              heading='Strategy & Advisory'
-              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+              heading='Implementation and Delivery'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
             />
             <Card
               number='3/6'
-              heading='Strategy & Advisory'
-              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+              heading='Audits and Modernization'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
             />
             <Card
               number='4/6'
-              heading='Strategy & Advisory'
+              heading='Ideation Workshops'
               text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='5/6'
+              heading='Innovation Sprint'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='6/6'
+              heading='Innovation Advisory'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
             />
           </div>
         </div>

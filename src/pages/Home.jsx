@@ -60,6 +60,10 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* Client Story 1 */}
+
+      {/* Client Story 2 */}
     </>
   );
 }
