@@ -5,16 +5,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: transparent;
   padding: 50px 0px;
   gap: 144px;
   height: 80px;
   color: white;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  position: absolute;
 }
 
 .navbar-layout {
@@ -50,8 +46,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   padding: 0px;
-
   height: 46px;
+}
+
+.nav-link {
+  padding: 16px 16px;
+}
+
+.nav-link:hover {
+  background: white;
+  color: black;
+  padding: 8px 16px;
 }
