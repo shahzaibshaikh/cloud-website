@@ -7,9 +7,15 @@
 html {
   background: #333;
   font-family: 'Heebo', sans-serif;
+  background: #333;
 }
 
 ol,
 ul {
   list-style: none;
+  text-decoration: none !important;
+}
+
+ul li {
+  color: white;
 }

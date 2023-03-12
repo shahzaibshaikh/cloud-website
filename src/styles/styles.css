@@ -7,11 +7,17 @@
 html {
   background: #333;
   font-family: "Heebo", sans-serif;
+  background: #333;
 }
 
 ol,
 ul {
   list-style: none;
+  text-decoration: none !important;
+}
+
+ul li {
+  color: white;
 }
 
 .navbar-container {
@@ -62,6 +68,7 @@ ul {
 }
 
 .nav-link {
+  color: white;
   padding: 16px 16px;
 }
 
@@ -71,20 +78,25 @@ ul {
   padding: 8px 16px;
 }
 
-.landing-container-image {
-  background: url("../../assets/hero-video.mp4");
-  background-size: cover;
+.full-page {
   height: 100vh;
 }
 
+.video-background {
+  z-index: -5;
+  min-width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
 .landing-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
   width: 100%;
   margin-top: -100px;
-  margin-left: 0;
 }
 
 .landing-content {
@@ -122,7 +134,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   width: 100vw;
-  position: absolute;
   left: 0;
   align-items: flex-start;
   padding: 130px 140px;
@@ -153,6 +164,48 @@ ul {
 }
 .para-heading span {
   color: #bfbfbf;
+}
+
+.practice-areas-container {
+  position: relative;
+  display: flex;
+  padding: 130px 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f5f5f5;
+  gap: 10px;
+}
+
+.practice-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+.top-mini-heading2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.practice-heading {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  color: #000000;
+  letter-spacing: -0.024em;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -215,4 +268,16 @@ ul {
   color: #000;
   background: #fff;
   height: 46px;
+}
+
+.MuiTabs-root {
+  width: 80%;
+}
+
+.tab-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 0px 0px;
+  gap: 32px;
 }/*# sourceMappingURL=styles.css.map */
