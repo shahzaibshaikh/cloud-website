@@ -120,10 +120,169 @@ function PracticeAreas() {
           </div>
         </div>
       </TabPanel>
-      <TabPanel value={1}>Second page</TabPanel>
-      <TabPanel value={2}>Third page</TabPanel>
-      <TabPanel value={3}>Fourth page</TabPanel>
-      <TabPanel value={4}>Fifth page</TabPanel>
+      <TabPanel value={1}>
+        <div className='tab-panel'>
+          <div className='work-explore'>
+            <div className='work-areas'>Work Areas</div>
+            <div className='explore-now'>Explore Now</div>
+          </div>
+          <div className='card-layout'>
+            <Card
+              number='1/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='2/6'
+              heading='Implementation and Delivery'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='3/6'
+              heading='Audits and Modernization'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+            <Card
+              number='4/6'
+              heading='Ideation Workshops'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='5/6'
+              heading='Innovation Sprint'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='6/6'
+              heading='Innovation Advisory'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+          </div>
+        </div>
+      </TabPanel>
+      <TabPanel value={2}>
+        {' '}
+        <div className='tab-panel'>
+          <div className='work-explore'>
+            <div className='work-areas'>Work Areas</div>
+            <div className='explore-now'>Explore Now</div>
+          </div>
+          <div className='card-layout'>
+            <Card
+              number='1/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='2/6'
+              heading='Implementation and Delivery'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='3/6'
+              heading='Audits and Modernization'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+            <Card
+              number='4/6'
+              heading='Ideation Workshops'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='5/6'
+              heading='Innovation Sprint'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='6/6'
+              heading='Innovation Advisory'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+          </div>
+        </div>
+      </TabPanel>
+      <TabPanel value={3}>
+        {' '}
+        <div className='tab-panel'>
+          <div className='work-explore'>
+            <div className='work-areas'>Work Areas</div>
+            <div className='explore-now'>Explore Now</div>
+          </div>
+          <div className='card-layout'>
+            <Card
+              number='1/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='2/6'
+              heading='Implementation and Delivery'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='3/6'
+              heading='Audits and Modernization'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+            <Card
+              number='4/6'
+              heading='Ideation Workshops'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='5/6'
+              heading='Innovation Sprint'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='6/6'
+              heading='Innovation Advisory'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+          </div>
+        </div>
+      </TabPanel>
+      <TabPanel value={4}>
+        {' '}
+        <div className='tab-panel'>
+          <div className='work-explore'>
+            <div className='work-areas'>Work Areas</div>
+            <div className='explore-now'>Explore Now</div>
+          </div>
+          <div className='card-layout'>
+            <Card
+              number='1/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='2/6'
+              heading='Implementation and Delivery'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='3/6'
+              heading='Audits and Modernization'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+            <Card
+              number='4/6'
+              heading='Ideation Workshops'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='5/6'
+              heading='Innovation Sprint'
+              text='Our development teams will help you execute your digitization strategies and robust systems and applications that help you achieve your goals.'
+            />
+            <Card
+              number='6/6'
+              heading='Innovation Advisory'
+              text='We identify the shortcomings of your existing systems and propose solutions that make the best use of your previous tech investment.'
+            />
+          </div>
+        </div>
+      </TabPanel>
     </TabsUnstyled>
   );
 }
