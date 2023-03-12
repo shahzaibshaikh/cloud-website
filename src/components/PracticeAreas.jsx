@@ -8,6 +8,7 @@ import {
   tabUnstyledClasses
 } from '@mui/base';
 import { buttonUnstyledClasses } from '@mui/base/ButtonUnstyled';
+import Card from './Card';
 
 const blue = {
   50: '#F0F7FF',
@@ -82,19 +83,30 @@ function PracticeAreas() {
       <TabPanel value={0}>
         <div className='tab-panel'>
           <div className='work-explore'>
-            <div>Work Areas</div>
-            <div>Explore Now</div>
+            <div className='work-areas'>Work Areas</div>
+            <div className='explore-now'>Explore Now</div>
           </div>
           <div className='card-layout'>
-            <div className='card'>
-              <p className='card-number'>1/6</p>
-              <h3 className='card-heading'>Strategy and Advisory</h3>
-              <p className='card-text'>
-                Our experts analyze your company’s tech infrastructure and processes to
-                strengthen the organization’s short-term performance and maintain
-                sustainable long-term improvement.
-              </p>
-            </div>
+            <Card
+              number='1/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='2/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='3/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
+            <Card
+              number='4/6'
+              heading='Strategy & Advisory'
+              text='Our experts analyze your company’s tech infrastructure and processes to strengthen the organization’s short-term performance and maintain sustainable long-term improvement.'
+            />
           </div>
         </div>
       </TabPanel>
