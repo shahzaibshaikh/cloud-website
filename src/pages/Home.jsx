@@ -5,6 +5,8 @@ import Video from '../assets/hero-video.mp4';
 import PracticeAreas from '../components/PracticeAreas';
 import iphone433 from '../assets/iPhone.svg';
 import JogoLogo from '../assets/Frame 568.svg';
+import iphoneClickdrive from '../assets/iPhone2.svg';
+import ClickDriveLogo from '../assets/Group 14.svg';
 
 function Home() {
   return (
@@ -101,36 +103,38 @@ function Home() {
 
       {/* Client Story 2 */}
 
-      <section className='client-story-container'>
+      <section className='client-story-container-light'>
+        <div className='client-story-demo-light'>
+          <img src={iphoneClickdrive} className='demo-mockup' />
+          <img src={ClickDriveLogo} className='company-icon' />
+        </div>
         <div className='client-story-details'>
           <div className='client-story-header'>
-            <div className='top-mini-heading'>PracRevolutionizing the game:</div>
-            <div className='client-heading'>
-              Where tech innovation meets sports excellencetice Areas
+            <div className='top-mini-heading2'>Driving Lessons on your finger tips</div>
+            <div className='practice-heading'>
+              Making Learning to Drive Hassle free and EffortlessMaking Learning to Drive
+              Hassle free and Effortless
             </div>
-            <div className='client-text'>
-              Cloud Primero helped 433 create web and mobile experiences that were
-              required to tap the potential user base of such platforms
+            <div className='client-text-light'>
+              Cloud Primero helped ClickDrive launch a website and mobile application for
+              driving students and instructors within the 3 months time frame including
+              the Quality Assurance Testing
             </div>
           </div>
-          <div className='client-story-footer'>
-            <div className='client-footer-heading'>
-              Revolutionary Player Development Platform
+          <div className='client-story-footer-light'>
+            <div className='client-footer-heading-light'>
+              Digital Product Consulting and Development
             </div>
-            <div className='client-text'>
-              JOGO is the future of football. This revolutionary player development
-              platform provides productive insights of players to predict the future faces
-              of football.
+            <div className='client-text-light'>
+              ClickDrive B.V is a marketplace for driving instructors and people looking
+              to take driving lessons to qualify for obtaining a driving license.
             </div>
             <div className='client-label-holder'>
-              <p className='client-label-pill'>AI</p>
-              <p className='client-label-pill'>Sports</p>
-              <p className='client-label-pill'>Data Science</p>
+              <p className='client-label-pill-light'>AI</p>
+              <p className='client-label-pill-light'>Sports</p>
+              <p className='client-label-pill-light'>Data Science</p>
             </div>
           </div>
-        </div>
-        <div className='client-story-demo'>
-          <img src={iphone433} className='demo-mockup' />
         </div>
       </section>
     </>
