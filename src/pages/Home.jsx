@@ -3,6 +3,8 @@ import Button from '../components/Button';
 import Navbar from '../components/Navbar';
 import Video from '../assets/hero-video.mp4';
 import PracticeAreas from '../components/PracticeAreas';
+import iphone433 from '../assets/iPhone.svg';
+import JogoLogo from '../assets/Frame 568.svg';
 
 function Home() {
   return (
@@ -63,7 +65,74 @@ function Home() {
 
       {/* Client Story 1 */}
 
+      <section className='client-story-container'>
+        <div className='client-story-details'>
+          <div className='client-story-header'>
+            <div className='top-mini-heading'>PracRevolutionizing the game:</div>
+            <div className='client-heading'>
+              Where tech innovation meets sports excellencetice Areas
+            </div>
+            <div className='client-text'>
+              Cloud Primero helped 433 create web and mobile experiences that were
+              required to tap the potential user base of such platforms
+            </div>
+          </div>
+          <div className='client-story-footer'>
+            <div className='client-footer-heading'>
+              Revolutionary Player Development Platform
+            </div>
+            <div className='client-text'>
+              JOGO is the future of football. This revolutionary player development
+              platform provides productive insights of players to predict the future faces
+              of football.
+            </div>
+            <div className='client-label-holder'>
+              <p className='client-label-pill'>AI</p>
+              <p className='client-label-pill'>Sports</p>
+              <p className='client-label-pill'>Data Science</p>
+            </div>
+          </div>
+        </div>
+        <div className='client-story-demo'>
+          <img src={iphone433} className='demo-mockup' />
+          <img src={JogoLogo} className='company-icon' />
+        </div>
+      </section>
+
       {/* Client Story 2 */}
+
+      <section className='client-story-container'>
+        <div className='client-story-details'>
+          <div className='client-story-header'>
+            <div className='top-mini-heading'>PracRevolutionizing the game:</div>
+            <div className='client-heading'>
+              Where tech innovation meets sports excellencetice Areas
+            </div>
+            <div className='client-text'>
+              Cloud Primero helped 433 create web and mobile experiences that were
+              required to tap the potential user base of such platforms
+            </div>
+          </div>
+          <div className='client-story-footer'>
+            <div className='client-footer-heading'>
+              Revolutionary Player Development Platform
+            </div>
+            <div className='client-text'>
+              JOGO is the future of football. This revolutionary player development
+              platform provides productive insights of players to predict the future faces
+              of football.
+            </div>
+            <div className='client-label-holder'>
+              <p className='client-label-pill'>AI</p>
+              <p className='client-label-pill'>Sports</p>
+              <p className='client-label-pill'>Data Science</p>
+            </div>
+          </div>
+        </div>
+        <div className='client-story-demo'>
+          <img src={iphone433} className='demo-mockup' />
+        </div>
+      </section>
     </>
   );
 }
