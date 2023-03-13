@@ -43,7 +43,7 @@ const Tab = styled(TabUnstyled)`
   font-weight: 500;
   background-color: transparent;
   padding: 24px;
-  margin: 6px 6px;
+  margin: 0 6px;
   border: none;
   display: flex;
   justify-content: space-between;
@@ -67,6 +67,7 @@ const TabsList = styled(TabsListUnstyled)`
   margin-bottom: 16px;
   display: flex;
   align-items: center;
+  border-bottom: 3px solid #dedede;
   align-content: center;
 `;
 

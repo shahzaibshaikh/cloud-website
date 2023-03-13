@@ -8,6 +8,8 @@ import JogoLogo from '../assets/Frame 568.svg';
 import iphoneClickdrive from '../assets/iPhone2.svg';
 import ClickDriveLogo from '../assets/Group 14.svg';
 import SustainabilityLogo from '../assets/1824 1.svg';
+import CPLogo from '../assets/White logo horizontal (2).svg';
+import LogoRow from '../assets/logo row.svg';
 
 function Home() {
   return (
@@ -153,6 +155,43 @@ function Home() {
           <Button text='Explore Now' style='filled' />
         </div>
         <img src={SustainabilityLogo} className='sustainability-image' />
+      </section>
+
+      {/* Footer */}
+
+      <section className='footer-container'>
+        <div className='footer-horizontal'>
+          <div className='logo-details'>
+            <img src={CPLogo} className='footer-logo' />
+            <div className='footer-text'>
+              Cloud Primero is a technology consulting and services company that helps
+              create digital solutions and implement digital transformation initiatives
+              with big data, cloud services, AI, and cutting-edge custom application
+              development services.
+            </div>
+          </div>
+          <div className='footer-vertical-container'>
+            <div className='vertical-heading'>Practice Areas</div>
+            <div className='vertical-paragraph'>
+              <p>Digital Transformation</p>
+              <p>Digital Experiences</p>
+              <p>Corporate Innovation</p>
+              <p>Talent Sourcing</p>
+              <p>Metaverse and Web 3.0</p>
+            </div>
+          </div>
+          <div className='footer-vertical-container'>
+            <div className='vertical-heading'>Company</div>
+            <div className='vertical-paragraph'>
+              <p>About Us</p>
+              <p>Insights</p>
+            </div>
+          </div>
+          <div className='footer-vertical-container'>
+            <div className='vertical-heading'>Our Partners</div>
+            <img src={LogoRow} className='logo-row' />
+          </div>
+        </div>
       </section>
     </>
   );

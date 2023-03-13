@@ -385,6 +385,75 @@ ul li {
   color: #fff;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: flex-start;
+  padding: 60px 120px 120px;
+  gap: 80px;
+  background: #000000;
+}
+
+.footer-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+}
+
+.logo-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px 0px 0px;
+  gap: 24px;
+  max-width: 520px;
+}
+
+.footer-logo {
+  width: 248px;
+  height: 40px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.003em;
+  color: #bfbfbf;
+}
+
+.footer-vertical-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+.vertical-heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.004em;
+  color: #ffffff;
+}
+
+.vertical-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.003em;
+  color: #bfbfbf;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
