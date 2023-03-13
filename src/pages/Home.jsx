@@ -7,6 +7,7 @@ import iphone433 from '../assets/iPhone.svg';
 import JogoLogo from '../assets/Frame 568.svg';
 import iphoneClickdrive from '../assets/iPhone2.svg';
 import ClickDriveLogo from '../assets/Group 14.svg';
+import SustainabilityLogo from '../assets/1824 1.svg';
 
 function Home() {
   return (
@@ -136,6 +137,22 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Sustainability */}
+
+      <section className='sustainability-container'>
+        <div className='sustainability-detail container'>
+          <div className='top-mini-heading'>Sustainability Using Technology: </div>
+          <div className='client-heading'>People, Planet, Profit, and Purpose</div>
+          <div className='sustainability-text'>
+            Discover the power of technology in building a sustainable future for your
+            business and the environment. Download our free whitepaper and discover how
+            your business can go green.
+          </div>
+          <Button text='Explore Now' style='filled' />
+        </div>
+        <img src={SustainabilityLogo} className='sustainability-image' />
       </section>
     </>
   );
