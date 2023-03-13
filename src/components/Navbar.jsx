@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import Logo from '../assets/cloud-vector-blue.svg';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -8,13 +9,23 @@ function Navbar() {
       <div className='navbar-layout'>
         <img className='brand' src={Logo} />
         <div>
-          <ul className='navbar-menu'>
-            <li className='nav-link'>Home</li>
-            <li className='nav-link'>Practice Areas</li>
-            <li className='nav-link'>About Us</li>
-            <li className='nav-link'>Insights</li>
-            <li className='nav-link'>Industries</li>
-          </ul>
+          <div className='navbar-menu'>
+            <Link className='nav-link' to='/'>
+              Home
+            </Link>
+            <Link className='nav-link' to='/practice-areas'>
+              Practice Areas
+            </Link>
+            <Link className='nav-link' to='/about-us'>
+              About Us
+            </Link>
+            <Link className='nav-link' to='/insights'>
+              Insights
+            </Link>
+            <Link className='nav-link' to='/industries'>
+              Industries
+            </Link>
+          </div>
         </div>
         <Button text='Get Started' style='outlined' />
       </div>

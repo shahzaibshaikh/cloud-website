@@ -70,12 +70,15 @@ ul li {
 .nav-link {
   color: white;
   padding: 16px 16px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-link:hover {
   background: white;
   color: black;
   padding: 8px 16px;
+  cursor: pointer;
 }
 
 .full-page {

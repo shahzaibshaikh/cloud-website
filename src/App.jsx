@@ -6,6 +6,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/practice-areas' element={<Home />} />
+        <Route path='/about-us' element={<Home />} />
+        <Route path='/insights' element={<Home />} />
+        <Route path='/industries' element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
